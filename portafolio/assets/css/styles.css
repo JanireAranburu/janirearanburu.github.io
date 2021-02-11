@@ -155,12 +155,39 @@ h1 {
   font-weight: 900;
 }
 
+h2,
+.title-font {
+    font-family: 'Comfortaa', Helvetica, Arial, sans-serif; 
+    border: 2px solid #96FFCA;
+}
 
+
+h2 {
+  font-size: 2.3rem; 
+  line-height: 30px;
+}
+
+/*
 h2,
 .secondary-font {
     font-family: 'Dawning of a New Day', cursive;
 }   
 h2 {
-  font-size: 3.1rem; /* Tamaño de fuente: 31px */
+  font-size: 3.1rem; /* Tamaño de fuente: 31px 
   line-height: 1.1;
+} */
+
+
+/* ----------------------- UTILITIES ------------------ */
+
+.fondo {
+  background: #F1F0ED;
+}
+
+.fondo-about {
+  background: #F3C830;
+}
+.fondo-experiencia{
+  background: #E6E6E6;
+  border: 1px solid rgba(0, 0, 0, 0.2);;
 }
