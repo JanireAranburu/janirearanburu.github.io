@@ -138,7 +138,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem; /* Tamaño de fuente: 16px */
-  line-height: 1.37;
+  line-height: 1.37; /* 22/16= */
   overflow-x: hidden;
  
 }
@@ -166,12 +166,21 @@ h2 {
   border: 2px solid #96ffca;
   color: #fdfdfd;
   font-weight: 500; 
+  padding: 0.5rem 0 0 0.9rem;
+}
+
+.secondary-font {
+  font-size: 1.8rem;
+  line-height: 1,66;
+  color:#1C1B20;
+  font-weight: 400;
+  padding: 0.5rem 0 0 0;
 }
 
 h3 {
   font-size: 2rem;
   color:#D96908;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /*
@@ -196,15 +205,25 @@ h2 {
   background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
   background-size: cover;
   max-width: 37.6rem;
-  margin: 0 0 2.1rem;
+  margin: 0 0 4rem;
 }
 
 .flecha-svg {
-  margin: -1rem 0 2.1rem;
+  margin: -1rem 0 2.4rem;
 }
 
 .cita {
   text-align: center;
+  padding: 3rem 0 3.1rem 0;
+}
+
+.metodologia {
+  text-align: center;
+  padding: 0 1.5rem 0 1.6rem;
+}
+
+.metodologia1 {
+  padding: 2rem 0 4.8rem 0;
 }
 
 .imagen-metodologia {
@@ -213,7 +232,14 @@ h2 {
   background: url(../imgs/Metodologia-personas.png) 50% no-repeat;
   background-size: cover;
   width: 24.9rem;
-  margin: 0 0 2.1rem;
+}
+
+.imagen-metodologia1 {
+  padding: 0 9rem 0 3.6rem;
+}
+
+.meconsidero {
+  padding: 2rem 0 4.3rem 0;
 }
 
 /* ----------------------- UTILITIES ------------------ */
@@ -231,7 +257,14 @@ h2 {
 .fondo-experiencia {
   background: #e6e6e6;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 2.3rem 0 8rem;
+  margin: 0.3rem 0 5.6rem;
+  padding: 2.6rem 2.5rem 0;
+}
+
+.fondo-meconsidero {
+  background: #e6e6e6;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2.6rem 2.5rem 0;
 }
 
 .wrapper-perfil {
@@ -246,18 +279,26 @@ h2 {
 
 .tipo-color {
   color:#D96908;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.comillas {
+  color:#F3C830;
 }
 
 /* ----------------------- BILLBOARD ------------------ */
 
 .billboard,
 .section {
-  margin: 0 0 7.1rem;
+  margin: 0 0 5.8rem;
 }
 
 .billboard {
-  height: 60vh;
+  height: 44vh;
   padding: 7rem 0 0;
   position: relative;
 }
@@ -268,19 +309,12 @@ h2 {
 }
 
 .intro {
-  bottom: -32px;
+  bottom: -29px;
   left: 0;
   position: absolute;
 }
 
-.billboard-image {
-  margin: 0 0 0.21rem;
-}
 
-/*El título About lo he conseguido poner en la mitad pero me gustaría llevarlo un poco más a la derecha para que se pueda ver la "t" bien. 
-Cuadrante verde: no consigo colocarlo encima del fondo amarillo. Al fondo le doy una posición relativa y al cuadrante verde le doy una posición absoluta para que se pueda posicionar encima, pero no me sale.
-La foto de perfil tiene un toque anaranjado. ¿Se puede crear en css, o la guardo con el toque anaranjado? 
-la fecha naranja (svg) se debe posicionar debajo del párrafo de arriba. */
 
 /* 430px / 16 */
 @media (min-width: 26.8em) {
