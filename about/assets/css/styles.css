@@ -146,7 +146,6 @@ body {
 h1,
 .primary-font {
   font-family: 'Montserrat', sans-serif;
-  margin: 0 0 4.8rem;
 }
 
 h1 {
@@ -200,20 +199,35 @@ h2 {
 .nav {
   align-items:center;
   display: flex;
-  justify-content: left;
 }
 
 .header {
 justify-content:space-between;
+padding: 2rem 0 0 0;
 }
 
 .nav-item {
-  padding: 0 2.3rem;
+  padding: 0 1.15rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 4rem;
+ }
+
+ .nav-link:hover {
+  color:#f5f5f4;
 }
 
+ .nav-item:last-child {
+   margin-right: 1.5rem;
+ }
 
 
-/* ----------------------- NAVIGATION ------------------ */
+.logo {
+  padding: 0 0 0 2.8rem;
+}
+
 
 
 
@@ -275,6 +289,10 @@ justify-content:space-between;
   background: #f5f5f4;
 }
 
+.fondo-header{
+  background: #f3c830; ;
+}
+
 .fondo-about {
   background: #f3c830;
   display: block;
@@ -295,7 +313,6 @@ justify-content:space-between;
 }
 
 .wrapper-perfil {
-  margin: 0 auto;
   max-width: 128rem;
   padding: 0 1.5rem;
 }
@@ -325,8 +342,8 @@ justify-content:space-between;
 }
 
 .billboard {
-  height: 44vh;
-  padding: 7rem 0 0;
+  height: 42vh;
+  padding: 4.8rem 0 0;
   position: relative;
 }
 

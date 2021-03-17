@@ -1,0 +1,161 @@
+/* Based on: https://dev.to/hankchizljaw/a-modern-css-reset-6p3 */
+/* ----------------------- RESET ------------------ */
+/**
+ * Box sizing rules
+ * https://developer.mozilla.org/es/docs/Web/CSS/box-sizing
+ */
+ *,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
+ 
+ /* Remove default padding */
+ ul,
+ ol {
+   padding: 0;
+ }
+ 
+ /* Remove default margin */
+ body,
+ h1,
+ h2,
+ h3,
+ h4,
+ p,
+ ul,
+ ol,
+ li,
+ figure,
+ figcaption,
+ blockquote,
+ dl,
+ dd {
+   margin: 0;
+ }
+ 
+ /* Set core body defaults */
+ body {
+   min-height: 100vh;
+   scroll-behavior: smooth;
+   text-rendering: optimizeSpeed;
+   line-height: 1.5;
+ }
+ 
+ /* Remove list styles on ul, ol elements with a class attribute */
+ ul,
+ ol {
+   list-style: none;
+ }
+ 
+ /* A elements that don't have a class get default styles */
+ a:not([class]) {
+   text-decoration-skip-ink: auto;
+ }
+ 
+ /* Make images easier to work with */
+ img {
+   max-width: 100%;
+   display: block;
+ }
+ 
+ /* Natural flow and rhythm in articles by default */
+ article > * + * {
+   margin-top: 1em;
+ }
+ 
+ /* Inherit fonts for inputs and buttons */
+ input,
+ button,
+ textarea,
+ select {
+   font: inherit;
+ }
+ 
+ [role='button'],
+ input[type='submit'],
+ input[type='reset'],
+ input[type='button'],
+ button {
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+ }
+ 
+ /* Reset `button` and button-style `input` default styles */
+ input[type='submit'],
+ input[type='reset'],
+ input[type='button'],
+ button {
+   background: none;
+   border: 0;
+   color: inherit;
+   /* cursor: default; */
+   font: inherit;
+   line-height: normal;
+   overflow: visible;
+   padding: 0;
+   -webkit-appearance: button; /* for input */
+   -webkit-user-select: none; /* for button */
+   -moz-user-select: none;
+   -ms-user-select: none;
+ }
+ input::-moz-focus-inner,
+ button::-moz-focus-inner {
+   border: 0;
+   padding: 0;
+ }
+ 
+ /* Make `a` like a button */
+ [role='button'] {
+   color: inherit;
+   cursor: default;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+   white-space: pre;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+ }
+ 
+ /* Remove all animations and transitions for people that prefer not to see them */
+ @media (prefers-reduced-motion: reduce) {
+   * {
+     animation-duration: 0.01ms !important;
+     animation-iteration-count: 1 !important;
+     transition-duration: 0.01ms !important;
+     scroll-behavior: auto !important;
+   }
+ }
+ 
+ /**
+  * rem - https://es.wikipedia.org/wiki/Em_(tipograf%C3%ADa)
+  *
+  * Por defecto el navegador tiene como tipografía base 16px, pero el usuario
+  * puede modificarlo desde las preferencias de su navegador.
+  * Una opción para configurar el tamaño de todo nuestro documento es utilizar
+  * esta medida base como referencia para calcular nuestros valores en rems.
+  *
+  * El fórmula para calcular los rems es el valor en pixels dividido por el
+  * tamaño de tipografía base (16px), por lo tanto, para obtener el valor en rems
+  * para 48px:
+  * 48 / 16 = 3
+  *
+  * por lo tanto:
+  * h1 {
+  *   font-size: 3rem;
+  * }
+  *
+  * Para simplificar el cálculo, una práctica muy común es convertir el tamaño de
+  * tipografía base a 10px, pero en su versión de porcentaje. Realizando una
+  * regla de tres simple, tomando 16px como el 100%, el resultado nos da 62.5%
+  *
+  * Con esta operación, el cálculo de los valores de rem resultan más sencillos,
+  * ya que nuestra tipografía base ahora es 10 y la división es más sencilla.
+  * Tomamos de ejemplo el mismo caso de 48px:
+  * 48 / 10 = 4.8
+  *
+  * y visualmente es mucho más fácil de ver el número en pixels original.
+  */
+ 
