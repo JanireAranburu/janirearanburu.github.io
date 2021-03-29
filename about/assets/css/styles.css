@@ -361,19 +361,99 @@ padding: 2rem 0 0 0;
 
 
 /* 430px / 16 */
+
 @media (min-width: 26.8em) {
+
+  /* ----------------------- BILLBOARD ------------------ */
+
   .billboard-title {
     margin-left: -2.5rem;
     font-size: 34vw;
   }
+
+
+  /* ----------------------- UTILITIES ------------------ */
+
+  .imagen-perfil{
+    max-width: initial;
+  }
+  .imagen-metodologia1 {
+    padding: 0 9rem 0 8rem;
+  }
+  
 }
 
+
 /* 700px / 16 */
+
 @media (min-width: 43.75em) {
+
+  /* ----------------------- BILLBOARD ------------------ */
   .billboard-title {
     display: block;
-    margin-left: 0;
-    font-size: 13rem;
+    margin-left: 4rem;
+    font-size: 18rem;
     text-align: left;
   }
+  
+
+  /* ----------------------- UTILITIES ------------------ */
+
+  .wrapper-perfil {
+    max-width: 128rem;
+    padding: 0 1.5rem;
+  }
+
+  .imagen-perfil {
+    background-color: red;
+    height: 23rem;
+    background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
+    background-size: cover;
+    margin: 0 0 4rem 8rem;
+    max-width: 55rem;
+  }
+  .imagen-metodologia1 {
+    padding: 0 9rem 0 22rem;
+  }
+
+}
+
+/* 960px /16 */
+
+@media (min-width: 60em) {
+
+  
+/* ----------------------- BILLBOARD ------------------ */
+  .billboard-title {
+    display: block;
+    margin-left: 4.8rem;
+    font-size: 18rem;
+    text-align: left;
+  }
+
+  .intro {
+    bottom: -3px;
+    left: 0;
+    position: absolute;
+  }
+  .imagen-perfil {
+    background-color: red;
+    height: 23rem;
+    background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
+    background-size: cover;
+    margin: 0 0 4rem 20rem;
+    max-width: 55rem;
+  }
+
+  .imagen-metodologia1 {
+    padding: 0 9rem 0 35rem;
+  }
+}
+
+
+/* 1161px /16 */
+
+@media (min-width: 73em) {
+
+
 }
