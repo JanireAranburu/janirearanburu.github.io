@@ -182,16 +182,6 @@ h3 {
   font-weight: 600;
 }
 
-/*
-h2,
-.secondary-font {
-    font-family: 'Dawning of a New Day', cursive;
-}
-h2 {
-  font-size: 3.1rem; /* Tamaño de fuente: 31px
-  line-height: 1.1;
-} */
-
 
 /* ----------------------- HEADER ------------------ */
 
@@ -286,7 +276,7 @@ padding: 2rem 0 0 0;
 /* ----------------------- UTILITIES ------------------ */
 
 .fondo {
-  background: #f5f5f4;
+  background: #FFFEFC;
 }
 
 .fondo-header{

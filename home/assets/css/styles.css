@@ -129,33 +129,71 @@
    }
  }
  
- /**
-  * rem - https://es.wikipedia.org/wiki/Em_(tipograf%C3%ADa)
-  *
-  * Por defecto el navegador tiene como tipografía base 16px, pero el usuario
-  * puede modificarlo desde las preferencias de su navegador.
-  * Una opción para configurar el tamaño de todo nuestro documento es utilizar
-  * esta medida base como referencia para calcular nuestros valores en rems.
-  *
-  * El fórmula para calcular los rems es el valor en pixels dividido por el
-  * tamaño de tipografía base (16px), por lo tanto, para obtener el valor en rems
-  * para 48px:
-  * 48 / 16 = 3
-  *
-  * por lo tanto:
-  * h1 {
-  *   font-size: 3rem;
-  * }
-  *
-  * Para simplificar el cálculo, una práctica muy común es convertir el tamaño de
-  * tipografía base a 10px, pero en su versión de porcentaje. Realizando una
-  * regla de tres simple, tomando 16px como el 100%, el resultado nos da 62.5%
-  *
-  * Con esta operación, el cálculo de los valores de rem resultan más sencillos,
-  * ya que nuestra tipografía base ahora es 10 y la división es más sencilla.
-  * Tomamos de ejemplo el mismo caso de 48px:
-  * 48 / 10 = 4.8
-  *
-  * y visualmente es mucho más fácil de ver el número en pixels original.
-  */
- 
+ /* ----------------------- GLOBAL ------------------ */
+
+html {
+  font-size: 62.5%; /* Tipografía base: 10px */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem; /* Tamaño de fuente: 16px */
+  line-height: 1.37; /* 22/16= */
+ }
+
+ h1,
+ .primary-font {
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ h1 {
+  font-size: 13.4rem; /* Tamaño de fuente: 134px */
+  line-height: 0.86;
+  font-weight: 900;
+  color: #FFFDFD;
+  display: flex;
+  justify-content: center;
+  left: -20px;
+ }
+
+h2 {
+  font-size: 4.9rem;
+  font-weight: 500;
+  color:#1C1B20;
+  padding: 0 0 0 11.5rem;
+}
+
+
+h3,
+.secondary-font {
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+h3 {
+  font-size: 3.1rem; 
+  font-weight: 400;
+  color:#1C1B20;
+  padding: 0 0 0 1rem;
+} 
+
+
+/* ----------------------- UTILITIES ------------------ */
+
+.fondo {
+  background:#fffdfd;
+}
+
+.fondo-principal{
+  background: #FF5851;
+}
+
+.flecha_portada{
+  margin:-1.5rem 0 0 32.5rem;
+}
+
+/* ----------------------- BILLBOARD ------------------ */
+
+.billboard {
+  height: 50vh;
+  padding: 22rem 0 0;
+}
