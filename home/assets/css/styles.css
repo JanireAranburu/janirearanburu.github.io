@@ -222,14 +222,9 @@ padding: 2rem 0 0 0;
   color:  #FF5851;
   display: flex;
   justify-content: center;
-  left: -30px;
-  padding: 8.9rem 0 0 0;
+  left: -37px;
+  padding: 4.3rem 0 0 0;
   position:absolute;
-}
-
-.billboard-title {
-  margin-left: -3rem;
-  font-size: 13vw;
 }
 
 .cuadrado {
@@ -242,6 +237,24 @@ left: 13px;
 top: 8.9rem;
 border: 2px solid #FF5851;
 box-sizing: border-box;
+}
+
+.descripcion {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  color: #1C1B20;
+  padding: 7.5rem 1rem 0;
+}
+
+.remarcar {
+  color: #FF5851;
+}
+
+.descripcion1 {
+  font-size: 2.5rem;
+  line-height: 2.7rem;
+  color: #1C1B20;
+  padding: 3.2rem 1rem 0;
 }
 
 /* ----------------------- UTILITIES ------------------ */
@@ -289,7 +302,6 @@ box-sizing: border-box;
     margin:-1.5rem 0 0 30rem;
   } 
   */
- }
 
 /* 960px /16 */
 
