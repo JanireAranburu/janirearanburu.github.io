@@ -142,10 +142,6 @@ body {
   overflow-x: hidden;
  }
 
- h1,
- .primary-font {
-   font-family: 'Montserrat', sans-serif;
- }
 
  h1 {
   font-size: 13.4rem; /* Tamaño de fuente: 134px */
@@ -153,15 +149,36 @@ body {
   font-weight: 900;
   color: #FFFDFD;
   display: flex;
-  justify-content: center;
-  left: -20px;
- }
+  justify-content: center; 
+  } 
+
+  .primary-font {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #96ffca;
+  } 
 
 h2 {
   font-size: 4.9rem;
   font-weight: 400;
   color:#1C1B20;
-  padding: 0 0 0 11.5rem;
+  margin-left:11.5rem;
+}
+
+.intro-font {
+  font-size: 2.3rem;
+  line-height: 1.3;
+  border: 2px solid #96ffca;
+  color: #fdfdfd;
+  font-weight: 500; 
+  padding: 0.5rem 0 0 0.9rem;
+}
+
+.intro-secondary {
+  font-size: 1.8rem;
+  line-height: 1,66;
+  color:#1C1B20;
+  font-weight: 400;
+  padding: 0.5rem 0 0 0;
 }
 
 
@@ -174,8 +191,11 @@ h3 {
   font-size: 3.1rem; 
   font-weight: 400;
   color:#1C1B20;
-  padding: 0 0 0 1rem;
+  margin-left:1rem;
+  margin-top: -1rem;
 } 
+
+
 
 
 /* ----------------------- HEADER ------------------ */
@@ -193,7 +213,6 @@ padding: 2rem 0 0 0;
 
 .nav-item {
   padding: 0 1.15rem;
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 1.6rem;
@@ -222,40 +241,99 @@ padding: 2rem 0 0 0;
   color:  #FF5851;
   display: flex;
   justify-content: center;
-  left: -37px;
+  left: 0%;
   padding: 4.3rem 0 0 0;
   position:absolute;
+  top: 0.7rem;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .cuadrado {
 display: block;
 position: relative;
 z-index: 0;
-width: 353px;
-height: 308px;
-left: 13px;
-top: 8.9rem;
 border: 2px solid #FF5851;
 box-sizing: border-box;
+font-size: 2.5rem;
+line-height: 2.7rem;
+color: #1C1B20;
+padding: 8.1rem 1rem 4rem;
+margin: 8.9rem 1.1rem 8rem;
 }
 
 .descripcion {
-  font-size: 2.5rem;
-  line-height: 2.7rem;
-  color: #1C1B20;
-  padding: 7.5rem 1rem 0;
+  margin: 0 0 4rem;
 }
 
 .remarcar {
   color: #FF5851;
 }
 
-.descripcion1 {
-  font-size: 2.5rem;
-  line-height: 2.7rem;
-  color: #1C1B20;
-  padding: 3.2rem 1rem 0;
+
+/* ----------------------- ABOUT ------------------ */
+
+.about-perfil {
+  padding: 0 2.5rem;
 }
+
+.imagen-perfil {
+  background-color: red;
+  height: 21.7rem;
+  background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
+  background-size: cover;
+  max-width: 37.6rem;
+  margin: 3.1rem auto;
+}
+
+.flecha-svg {
+  margin: -1rem 0 2.4rem;
+}
+
+.cita {
+  text-align: center;
+  padding: 3rem 0 3.1rem 0;
+}
+
+.cita::before,
+.cita::after {
+  color:#F3C830;
+  font-size: 2.5rem;
+  line-height: 2.2rem;
+}
+
+.cita::before{
+  content:'“ ';
+}
+.cita::after {
+  content:' ”';
+}
+
+.metodologia {
+  text-align: center;
+  padding: 0 1.5rem 0 1.6rem;
+}
+
+.metodologia1 {
+  padding: 2rem 0 4.8rem 0;
+}
+
+.imagen-metodologia {
+  background-color: red;
+  height: 23.2rem;
+  background: url(../imgs/Metodologia-personas.png) 50% no-repeat;
+  background-size: cover;
+  width: 24.9rem;
+}
+
+.imagen-metodologia1 {
+  padding: 0 9rem 0 3.6rem;
+}
+
+.meconsidero {
+  padding: 2rem 0 4.3rem 0;
+}
+
 
 /* ----------------------- UTILITIES ------------------ */
 
@@ -263,20 +341,95 @@ box-sizing: border-box;
   background:#fffdfd;
 }
 
+.fondocompleto-about {
+  background: #fffefc;
+}
+
 .fondo-principal{
   background: #FF5851;
 }
 
-.flecha_portada{
-  margin:-1.5rem 0 0 32.5rem;
+.fondo-header{
+  background: #f3c830; ;
 }
 
+.fondo-about {
+  background: #f3c830;
+  display: block;
+  position: relative;
+  z-index: 0;
+}
+.fondo-experiencia {
+  background: #e6e6e6;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0.3rem 0 5.6rem;
+  padding: 2.6rem 2.5rem 0;
+}
+
+.fondo-meconsidero {
+  background: #e6e6e6;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2.6rem 2.5rem 0;
+}
+
+.flecha_portada{
+  margin:-1.5rem 0 0 85%;
+}
+
+.upper {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color:#D96908;
+  font-weight: 600;
+}
+
+.wrapper-perfil {
+  padding: 0 1.5rem;
+}
+
+.underline {
+  background: #f3c830;
+}
+
+.tipo-color {
+  color:#D96908;
+  font-weight: 600;
+}
+
+strong,
+b {
+  font-weight: 600;
+}
 
 /* ----------------------- BILLBOARD ------------------ */
 
-.billboard {
+.billboard-home {
   height: 50vh;
   padding: 22rem 0 0;
+  overflow: hidden;
+}
+
+.billboard,
+.section {
+  margin: 0 0 5.8rem;
+}
+
+.billboard {
+  height: 42vh;
+  padding: 4.8rem 0 0;
+  position: relative;
+}
+
+.billboard-title {
+  margin-left: -3rem;
+  font-size: 35vw;
+}
+
+.intro {
+  bottom: -29px;
+  left: 0;
+  position: absolute;
+  max-width: 368px;
 }
 
 
@@ -296,12 +449,66 @@ box-sizing: border-box;
   h3 {
     display: flex;
     justify-content: center;
+ }
+
+   /* ----------------------- BILLBOARD ------------------ */
+
+   .billboard-title {
+    margin-left: -2.5rem;
+    font-size: 34vw;
   }
 
-  /*.flecha_portada{
-    margin:-1.5rem 0 0 30rem;
-  } 
-  */
+
+  /* ----------------------- UTILITIES ------------------ */
+
+  .imagen-perfil{
+    max-width: initial;
+  }
+  .imagen-metodologia1 {
+    padding: 0 9rem 0 8rem;
+  }
+
+  }
+
+
+
+
+  /* 700px / 16 */
+
+@media (min-width: 43.75em) {
+
+  /* ----------------------- BILLBOARD ------------------ */
+  .billboard-title {
+    display: block;
+    margin-left: 4rem;
+    font-size: 18rem;
+    text-align: left;
+  }
+
+  .intro{
+    max-width: 718px;
+  }
+  .wrapper-perfil {
+    padding:0 0 0 3rem ;
+  }
+
+  /* ----------------------- UTILITIES ------------------ */
+
+
+  .imagen-perfil {
+    background-color: red;
+    height: 23rem;
+    background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
+    background-size: cover;
+    margin: 0 0 4rem 8rem;
+    max-width: 55rem;
+  }
+  .imagen-metodologia1 {
+    padding: 0 9rem 0 22rem;
+  }
+
+}
+
 
 /* 960px /16 */
 
@@ -311,25 +518,54 @@ box-sizing: border-box;
     font-size: 18rem; 
    }
 
-  .billboard {
-    height: 56vh;
-    padding: 22rem 0 0;
-  }
+  
 
   h2 {
     font-size: 6.4rem;
-    padding: 0 0 0 18rem;
+    margin-left:18rem;
   }
   
   h3 {
     font-size: 6rem; 
-    padding: 0 13rem 0 0;
+    margin-right:9rem;
   } 
+
+  /* ----------------------- PORTADA ------------------ */
+
+  .billboard-home {
+    height: 56vh;
+    padding: 22rem 0 0;
+  }
 
   .flecha_portada{
     width: 38px; 
     height: 155px;
-    margin:-4.5rem 0 0 80rem;
-  }
+    margin:-4.5rem 0 0 71%;
+ }
 
+ /* ----------------------- BILLBOARD ------------------ */
+ .billboard-title {
+  display: block;
+  margin-left: 4.8rem;
+  font-size: 18rem;
+  text-align: left;
+}
+
+.intro {
+  left: 0;
+  position: absolute;
+  max-width: 689px;
+}
+.imagen-perfil {
+  background-color: red;
+  height: 35rem;
+  background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
+  background-size: cover;
+  margin: 0 0 4rem 25%;
+  max-width: 55rem;
+}
+
+.imagen-metodologia1 {
+  padding: 0 9rem 0 35rem;
+}
 }
