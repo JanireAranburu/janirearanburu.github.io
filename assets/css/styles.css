@@ -153,7 +153,7 @@ body {
   } 
 
   .primary-font {
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #96ffca;
   } 
 
@@ -235,7 +235,7 @@ padding: 2rem 0 0 0;
 /*------------------------PORTADA-----------------------*/
 
 .nombre {
-  font-size: 4.7rem; 
+  font-size: 4.6rem; 
   line-height: 0.4;
   font-weight: 500;
   color:  #FF5851;
@@ -327,11 +327,19 @@ margin: 8.9rem 1.1rem 8rem;
 }
 
 .imagen-metodologia1 {
-  padding: 0 9rem 0 3.6rem;
+  padding: 0 9rem 5.9rem 3.6rem;
 }
 
 .meconsidero {
   padding: 2rem 0 4.3rem 0;
+}
+
+.separacion {
+  margin-bottom: 10.3rem;
+}
+
+.parriba-svg {
+  margin: 2rem 0 4.3rem 82%;
 }
 
 
@@ -342,7 +350,7 @@ margin: 8.9rem 1.1rem 8rem;
 }
 
 .fondocompleto-about {
-  background: #fffefc;
+  background:#fffefc;
 }
 
 .fondo-principal{
@@ -360,20 +368,23 @@ margin: 8.9rem 1.1rem 8rem;
   z-index: 0;
 }
 .fondo-experiencia {
-  background: #e6e6e6;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fefaee;
   margin: 0.3rem 0 5.6rem;
   padding: 2.6rem 2.5rem 0;
 }
 
 .fondo-meconsidero {
-  background: #e6e6e6;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fefaee;
   padding: 2.6rem 2.5rem 0;
 }
 
+.fondo-meconsidero1 {
+  background: #fefaee;
+  padding: 2rem 2.6rem 4.4rem 2.5rem;
+}
+
 .flecha_portada{
-  margin:-1.5rem 0 0 85%;
+  margin:-1.5rem 0 4.3rem 85%;
 }
 
 .upper {
@@ -381,6 +392,8 @@ margin: 8.9rem 1.1rem 8rem;
   font-size: 2rem;
   color:#D96908;
   font-weight: 600;
+  margin-left: 2.6rem;
+  margin-bottom: 1.6rem;
 }
 
 .wrapper-perfil {
@@ -477,6 +490,9 @@ b {
 
 @media (min-width: 43.75em) {
 
+
+  
+
   /* ----------------------- BILLBOARD ------------------ */
   .billboard-title {
     display: block;
@@ -530,6 +546,47 @@ b {
     margin-right:9rem;
   } 
 
+  .primary-font {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #96ffca;
+    } 
+
+  .intro-font {
+  font-size: 3.2rem;
+  line-height: 1.3;
+  border: 3px solid #96ffca;
+  color: #fdfdfd;
+  font-weight: 500; 
+  padding: 0.5rem 0 0 0.9rem;
+}  
+
+.intro-secondary {
+  font-size: 2.7rem;
+  line-height: 1,66;
+  color:#1C1B20;
+  font-weight: 400;
+  padding: 0.5rem 0 0 0;
+}
+
+    /* ----------------------- HEADER ------------------ */
+
+.header {
+justify-content:space-between;
+padding: 3.5rem 0 0 0;
+}
+
+  .nav-item {
+    padding: 0 5rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 4rem;
+   }
+
+   .logo {
+    padding: 0 0 0 5rem;
+  }
+
   /* ----------------------- PORTADA ------------------ */
 
   .billboard-home {
@@ -540,32 +597,141 @@ b {
   .flecha_portada{
     width: 38px; 
     height: 155px;
-    margin:-4.5rem 0 0 71%;
+    margin:-4.5rem 0 4.3rem 66%;
  }
 
+ .nombre {
+  font-size: 11.5rem; 
+  line-height: 9.1;
+  font-weight: 500;
+  color:  #FF5851;
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  padding: 6.6rem 0 0 0;
+  position:absolute;
+  top: -48rem;
+  white-space: nowrap;
+  width: 100%;
+}
+
+ .cuadrado {
+  display: block;
+  position: relative;
+  z-index: 0;
+  border: 2px solid #FF5851;
+  box-sizing: border-box;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  color: #1C1B20;
+  padding: 17.3rem 20rem 6.5rem;
+  margin: 17.11rem 32rem 8rem;
+  }
+
+
+
+ /* ----------------------- ABOUT ------------------ */
+
+
+  .about-perfil {
+    padding: 0 44rem 0 38rem;
+  }
+
+  .about-perfil-cuadrado {
+    padding: 0 44rem 0 38rem;
+  }
+
+
+  .intro {
+    bottom: -39px;
+    left: 0;
+    position: absolute;
+    max-width: 1155px;
+  }
+  
+  .imagen-perfil {
+    background-color: red;
+    height: 54.5rem;
+    background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
+    background-size: cover;
+    margin: 0 0 4rem 25%;
+    max-width: 70rem;
+  
+  }
+
+  .flecha-svg {
+    margin: -1rem 0 8.8rem;
+  }
+
+  .upper {
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    color:#D96908;
+    font-weight: 600;
+    margin-bottom: 1.8rem;
+  }
+
+  .cita {
+    text-align: center;
+  }
+  
+  .imagen-metodologia {
+    background-color: red;
+    height: 43.6rem;
+    background: url(../imgs/Metodologia-personas.png) 50% no-repeat;
+    background-size: cover;
+    width: 46.8rem;
+   }
+
+   .imagen-metodologia1 {
+     padding: 6.4rem 0 20.9rem 30%;
+   }
+
+  .fondo-experiencia {
+    background: #fefaee;
+    margin: 1.8rem 0 20.9rem;
+    padding: 2.6rem 2.5rem 0;
+    }
+
+  .fondo-meconsidero {
+    padding: 2.6rem 2.5rem;
+  }
+
+  .separacion {
+    margin-bottom: 27.8rem;
+  }
+
+  .parriba-svg {
+    margin: 8.6rem 0 4.3rem 140%;
+    width: 7.2rem;
+    height: 7.2rem;
+  }
+
+    
+
  /* ----------------------- BILLBOARD ------------------ */
+
+ .billboard {
+  height: 60vh;
+  padding: 15rem 0 0;
+  position: relative;
+}
+
+.billboard,
+.section {
+  margin: 0 0 28.1rem;
+}
+
  .billboard-title {
   display: block;
-  margin-left: 4.8rem;
+  margin-left: 24.7rem;
   font-size: 18rem;
   text-align: left;
 }
 
-.intro {
-  left: 0;
-  position: absolute;
-  max-width: 689px;
-}
-.imagen-perfil {
-  background-color: red;
-  height: 35rem;
-  background: url(../imgs/Imagen-portfolio.jpg) 50% no-repeat;
-  background-size: cover;
-  margin: 0 0 4rem 25%;
-  max-width: 55rem;
+.wrapper-perfil {
+  padding:0 0 0 24.7rem ;
 }
 
-.imagen-metodologia1 {
-  padding: 0 9rem 0 35rem;
-}
+
 }
