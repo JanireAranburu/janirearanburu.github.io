@@ -295,6 +295,7 @@ margin: 8.9rem 1.1rem 8rem;
 
 .cita {
   text-align: center;
+  font-style: italic;
   padding: 3rem 0 3.1rem 0;
 }
 
@@ -367,8 +368,249 @@ margin: 8.9rem 1.1rem 8rem;
 }
 
 
+/* ----------------------- SPACE TRAVEL ------------------ */
+
+.fondo-header-st {
+  background-color:#1c1b20;
+
+}
+
+.fondocompleto-proyecto {
+  background:#fff ;
+}
+
+.fondo-st {
+  background-color: red;
+  background: url(../imgs/imagen-spacetravel.png) 50% no-repeat;
+  background-size: cover;
+}
+
+.billboard-proyecto {
+    height: 50vh;
+    padding: 4.8rem 0 0;
+    position: relative;
+}
+
+.intro-proyecto {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 3.5rem;
+  margin-top: 5rem;
+
+}
+
+.wrapper {
+  padding: 0 4rem;
+}
+
+.row {
+  align-items: flex-start;
+  display: flex;
+  width: 105%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  width: 101%;
+}
+
+.column1 {
+  width: 50%;
+}
+
+.titulo-descripcion {
+font-size: 3.1rem;
+line-height: 3.6rem;
+margin-top: 7.5rem;
+margin-bottom: 1.6rem;
+}
+
+.separacion-descripcion {
+  margin-bottom: 2rem;
+}
+
+.fondo-mockupst1 {
+  background: #1c1b20;
+  height: 18.2rem;
+  margin-top: 16.2rem;
+  position: relative;
+  margin-bottom: 37rem;
+ 
+} 
 
 
+.mockup-introst {
+  height: 21.7rem;
+  max-width: 34.6rem;
+  margin-top: -5rem;
+  margin-left: 1.7rem;
+  position: absolute;
+}
+
+.fondo-mockupst2 {
+  background: #1c1b20;
+  height: 45.6rem;
+  margin-top: 16.2rem;
+  position: relative;
+ 
+} 
+
+.mockup-introst2 {
+  height: 33.6rem;
+  max-width: 34.6rem;
+  margin-top: -28rem;
+  margin-left: -1.7rem;
+  position: absolute;
+}
+
+.mockup-introst3 {
+  max-width: 28.5rem;
+  margin-top: 15rem;
+  margin-left: 4rem;
+  position: absolute;
+}
+
+.parribast-svg {
+  margin: 51rem 0 4.3rem 82%;
+}
+
+
+/* ----------------------- ENNOVA ------------------ */
+
+.fondo-header-en {
+  background-color:#e21e1d;
+
+}
+
+.fondo-en {
+  background-color: red;
+  background: url(../imgs/imagen-ennova.png) 50% no-repeat;
+  background-size: cover;
+}
+
+.fondo-mockupst1-en {
+  background: #e21e1d;
+  height: 18.2rem;
+  margin-top: 16.2rem;
+  position: relative;
+  margin-bottom: 9.6rem;
+} 
+
+.subtitulo {
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+hr {
+  width: 9.1rem;
+  border: 1px solid #1C1B20;
+}
+
+.p-uno {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.p-medio{
+  margin-top: 2rem;
+  margin-bottom: 2rem; 
+}
+
+.p-ultimo {
+  margin-bottom: 4rem;
+}
+
+.imagen-plataforma {
+  background-color: red;
+  height: 18.1rem;
+  background: url(../imgs/plataforma.jpg) 50% no-repeat;
+  background-size: cover;
+  width: 29.5rem;
+  margin-bottom: 9.6rem;
+  
+}
+
+.cita-en {
+  text-align: center;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  padding: 3rem 0 3.1rem 0;
+}
+
+.cita-autor {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.imagen-metodologia-en{
+  background-color: red;
+  height: 17.5rem;
+  background: url(../imgs/imagen-metodologia-en.png) 50% no-repeat;
+  background-size: cover;
+  width: 32.5rem;
+  margin-bottom: 9.6rem;
+  margin-left: -1.5rem;
+}
+
+.imagen-herramientas {
+  background-color: red;
+  height: 18.1rem;
+  background: url(../imgs/herramientas-diseño.jpg) 50% no-repeat;
+  background-size: cover;
+  width: 29.5rem;
+  margin-bottom: 9.6rem;
+}
+
+.fondo-mockup-en {
+  background: #e21e1d;
+  height: 128.7rem;
+  margin-top: 16.2rem;
+  position: relative;
+} 
+
+
+.mockup-introst-en1 {
+  height: 21.7rem;
+  max-width: 34.6rem;
+  margin-top: 4rem;
+  margin-left: 3.7rem;
+  position: absolute;
+}
+
+.mockup-introst-en2 {
+  height: 21.7rem;
+  max-width: 34.6rem;
+  margin-top: 30rem;
+  margin-left: 3.7rem;
+  position: absolute;
+}
+
+.mockup-introst-en3 {
+  height: 21.7rem;
+  max-width: 34.6rem;
+  margin-top: 56rem;
+  margin-left: 3.7rem;
+  position: absolute;
+}
+
+.mockup-introst-en4 {
+  height: 21.7rem;
+  max-width: 34.6rem;
+  margin-top: 82rem;
+  margin-left: 3.7rem;
+  position: absolute;
+}
+
+.parribaen-svg {
+  margin: -20rem 0 4.3rem 82%;
+  position: absolute;
+}
 
 
 
@@ -517,6 +759,18 @@ b {
     padding: 0 9rem 0 8rem;
   }
 
+
+  /* ----------------------- SPACE TRAVEL ------------------ */
+  .wrapper {
+    padding: 0 6rem;
+  }
+
+  .mockup-introst,
+  .mockup-introst2,
+  .mockup-introst3 {
+    margin-left: 10%;
+  }
+
   }
 
 
@@ -569,6 +823,18 @@ b {
   }
   .imagen-metodologia1 {
     padding: 0 9rem 0 22rem;
+  }
+
+
+  /* ----------------------- SPACE TRAVEL ------------------ */
+  .wrapper {
+    padding: 0 9rem;
+  }
+
+  .mockup-introst,
+  .mockup-introst2,
+  .mockup-introst3 {
+    margin-left: 27%;
   }
 
 }
@@ -759,6 +1025,91 @@ padding: 3.5rem 0 0 0;
 
   br { display: none; }
 
+
+
+/* ----------------------- SPACE TRAVEL ------------------ */
+
+
+  .billboard-proyecto {
+    height: 98vh;
+}
+
+.wrapper{
+  padding: 0 5rem;
+}
+
+.row-destop {
+  align-items: flex-start;
+  display: flex;
+  width: 162%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.column-destop1 {
+  width: 20%;
+}
+
+.column-destop2 {
+  width: 42%;
+}
+
+.intro-proyecto {
+  margin-top: 19rem;
+}
+
+.titulo-descripcion {
+  margin-top: 19rem;
+}
+
+.fondo-mockupst1 {
+  background: #1c1b20;
+  height: 54.9rem;
+  margin-top: 30.3rem;
+  position: relative;
+  margin-bottom: 42rem;
+}
+
+.mockup-introst {
+  height: 51.3rem;
+  max-width: 85.4rem;
+  margin-top: -12rem;
+  margin-left: 6.7rem;
+  position: absolute;
+}
+
+.fondo-mockupst2 {
+  background: #1c1b20;
+  height: 129rem;
+  margin-top: 67.8rem;
+  position: relative;
+}
+
+.mockup-introst2 {
+  height: 75.5rem;
+  max-width: 92rem;
+  margin-top: -64rem;
+  margin-left: -1.7rem;
+  position: absolute;
+}
+
+.mockup-introst3 {
+  max-width: 86.8rem;
+  margin-top: 23rem;
+  margin-left: 5rem;
+  position: absolute;
+}
+
+.parribast-svg {
+  margin: 144rem 0 20rem 87%;
+  width: 7.2rem;
+  height: 7.2rem;
+}
+
+  
+
     
 
  /* ----------------------- BILLBOARD ------------------ */
@@ -811,5 +1162,33 @@ padding: 3.5rem 0 0 0;
     margin-right: 12.2rem;
     margin-bottom: 7.7rem;
   }
+
+   /* ----------------------- SPACE TRAVEL ------------------ */
+
+   .wrapper{
+    padding: 0 10rem;
+  }
+
+  .column-destop1 {
+    width: 30%;
+  }
+
+  .column-destop2 {
+    width: 30%;
+  }
+
+   .mockup-introst {
+    margin-left: 30rem;
+  }
+
+  .mockup-introst2 {
+    margin-left: 20rem;
+  }
+  
+  .mockup-introst3 {
+    margin-left: 30rem;
+  }
+
+
   
 }
