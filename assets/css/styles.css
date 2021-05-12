@@ -771,9 +771,16 @@ b {
     margin-left: 10%;
   }
 
+  /* ----------------------- ENNOVA ------------------ */
+
+  .mockup-introst-en1,
+  .mockup-introst-en2,
+  .mockup-introst-en3,
+  .mockup-introst-en4 {
+    margin-left: 17%; 
   }
 
-
+  }
 
 
   /* 700px / 16 */
@@ -835,6 +842,28 @@ b {
   .mockup-introst2,
   .mockup-introst3 {
     margin-left: 27%;
+  }
+
+  /* ----------------------- ENNOVA ------------------ */
+
+  .imagen-plataforma {
+    margin-left: 12rem;
+    
+  }
+
+  .imagen-metodologia-en{
+    margin-left: 10.5rem;
+  }
+  
+  .imagen-herramientas {
+    margin-left: 12rem;
+  }
+
+  .mockup-introst-en1,
+  .mockup-introst-en2,
+  .mockup-introst-en3,
+  .mockup-introst-en4 {
+    margin-left: 30%; 
   }
 
 }
@@ -1031,7 +1060,7 @@ padding: 3.5rem 0 0 0;
 
 
   .billboard-proyecto {
-    height: 98vh;
+    height: 95vh;
 }
 
 .wrapper{
@@ -1108,7 +1137,107 @@ padding: 3.5rem 0 0 0;
   height: 7.2rem;
 }
 
+/* ----------------------- ENNOVA ------------------ */
+
+.fondo-mockupst1-en {
+  background: #e21e1d;
+  height: 54.9rem;
+  margin-top: 30.3rem;
+  position: relative;
+  margin-bottom: 42rem;
+} 
+
+.subtitulo {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  text-align: center;
+}
+
+.p-uno {
+  margin-top: 5.3rem;
+  padding: 0 20rem;
+}
+
+.p-medio{
+  padding: 0 20rem; 
+}
+
+.p-ultimo {
+  margin-bottom: 7.5rem;
+  padding: 0 20rem; 
+}
+
+.imagen-plataforma {
+  height: 51.3rem;
+  width: 92rem;
+  margin-bottom: 9.6rem;  
+}
+
+.cita-en {
+  padding: 3rem 20rem 3.1rem ;
+}
+
+.cita-autor {
+  margin-bottom: 6.6rem;
+}
+
+.imagen-metodologia-en{
+  height: 45.4rem;
+  width: 84.3rem;
+  margin-bottom: 15.7rem;
+  margin-left: 8.5rem;
+}
+
+.imagen-herramientas {
+  height: 51.4rem;
+  width: 92rem;
+  margin-bottom: 15.7rem;
+}
+
+.fondo-mockup-en {
+  height: 200rem;
+} 
+
+
+.mockup-introst-en1 {
+  height: 37rem;
+  max-width: 60rem;
+  margin-top: 8rem;
+  margin-left: 35rem;
   
+}
+
+.mockup-introst-en2 {
+  height: 37rem;
+  max-width: 60rem;
+  margin-top: 52rem;
+  margin-left: 35rem;
+  
+}
+
+.mockup-introst-en3 {
+  height: 37rem;
+  max-width: 60rem;
+  margin-top: 96rem;
+  margin-left: 35rem;
+  
+}
+
+.mockup-introst-en4 {
+  height: 37rem;
+  max-width: 60rem;
+  margin-top: 140rem;
+  margin-left: 35rem;
+  
+}
+
+.parribaen-svg {
+  margin: -20rem 0 4.3rem 82%;
+  width: 7.2rem;
+  height: 7.2rem;
+  position: absolute;
+}
 
     
 
